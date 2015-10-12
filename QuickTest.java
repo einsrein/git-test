@@ -76,12 +76,6 @@ public class QuickTest
         System.out.println(dstInfo(zone, cal));
         cal.add(Calendar.HOUR, 1);
         System.out.println(dstInfo(zone, cal));
-        
-//        System.out.println(DateTimeUtil.parseDate(new java.sql.Timestamp(System.currentTimeMillis()),
-//                DateTimeUtil.MM_DD_YYYY_HHMMSS, tz));
-//        System.out.println(DateTimeUtil.format(new Date(),
-//                DateTimeUtil.MM_DD_YYYY_HHMMSS, tz));
-//        //System.out.println(DateTimeUtil.formatDate2UTC(new java.sql.Timestamp(System.currentTimeMillis())));
     }
 
     private static String dstInfo(TimeZone zone, Calendar cal)
